@@ -1,0 +1,3 @@
+---------------------------------------------------------------
+[2019-04-10T12:00:49+08:00] ::1 GET thinkadmin.com:8888/admin/login/out.html?spm=m-1
+[ error ] [8]未定义变量: _SESSION[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/application/admin/controller/Login.php:100]

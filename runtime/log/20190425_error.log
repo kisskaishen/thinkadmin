@@ -1,0 +1,72 @@
+---------------------------------------------------------------
+[2019-04-25T11:15:06+08:00] ::1 GET thinkadmin.com:8888/admin.html
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection refused[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/db/Connection.php:528]
+---------------------------------------------------------------
+[2019-04-25T11:23:29+08:00] ::1 GET thinkadmin.com:8888/activity/index/index.html?spm=m-51-52-53
+[ error ] [8]Undefined property: app\activity\controller\Index::$table[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/application/activity/controller/Index.php:18]
+---------------------------------------------------------------
+[2019-04-25T11:24:32+08:00] ::1 GET thinkadmin.com:8888/activity/index/index.html?spm=m-51-52-53
+[ error ] [8]Undefined property: app\activity\controller\Index::$table[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/application/activity/controller/Index.php:18]
+---------------------------------------------------------------
+[2019-04-25T11:24:44+08:00] ::1 GET thinkadmin.com:8888/activity/index/index.html?spm=m-51-52-53
+[ error ] [8]Undefined property: app\activity\controller\Index::$table[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/application/activity/controller/Index.php:18]
+---------------------------------------------------------------
+[2019-04-25T11:25:18+08:00] ::1 GET thinkadmin.com:8888/activity/index/index.html?spm=m-51-52-53
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'admin_v4.wap_activity' doesn't exist[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/db/Connection.php:687]
+---------------------------------------------------------------
+[2019-04-25T15:48:59+08:00] ::1 GET thinkadmin.com:8888/admin.html
+[ error ] [0]语法解析错误: syntax error, unexpected '&'[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/application/activity/controller/Classify.php:29]
+---------------------------------------------------------------
+[2019-04-25T15:58:51+08:00] ::1 GET thinkadmin.com:8888/store/goods_cate/index.html?spm=m-13-48-44
+[ error ] [8]未定义变量: vo[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/runtime/temp/a610494fe2d976ab4d832456b8c7ffbe.php:2]
+---------------------------------------------------------------
+[2019-04-25T15:59:04+08:00] ::1 GET thinkadmin.com:8888/store/goods_cate/index.html?spm=m-13-48-44
+[ error ] [8]未定义变量: vo[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/runtime/temp/a610494fe2d976ab4d832456b8c7ffbe.php:2]
+---------------------------------------------------------------
+[2019-04-25T15:59:16+08:00] ::1 GET thinkadmin.com:8888/store/goods_cate/index.html?spm=m-13-48-44
+[ error ] [8]未定义变量: vo[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/runtime/temp/a610494fe2d976ab4d832456b8c7ffbe.php:2]
+---------------------------------------------------------------
+[2019-04-25T15:59:19+08:00] ::1 GET thinkadmin.com:8888/store/goods_cate/index.html?spm=m-13-48-44
+[ error ] [8]未定义变量: vo[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/runtime/temp/a610494fe2d976ab4d832456b8c7ffbe.php:2]
+---------------------------------------------------------------
+[2019-04-25T15:59:20+08:00] ::1 GET thinkadmin.com:8888/store/goods_cate/index.html?spm=m-13-48-44
+[ error ] [8]未定义变量: vo[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/runtime/temp/a610494fe2d976ab4d832456b8c7ffbe.php:2]
+---------------------------------------------------------------
+[2019-04-25T15:59:21+08:00] ::1 GET thinkadmin.com:8888/store/goods_cate/index.html?spm=m-13-48-44
+[ error ] [8]未定义变量: vo[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/runtime/temp/a610494fe2d976ab4d832456b8c7ffbe.php:2]
+---------------------------------------------------------------
+[2019-04-25T15:59:21+08:00] ::1 GET thinkadmin.com:8888/store/goods_cate/index.html?spm=m-13-48-44
+[ error ] [8]未定义变量: vo[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/runtime/temp/a610494fe2d976ab4d832456b8c7ffbe.php:2]
+---------------------------------------------------------------
+[2019-04-25T15:59:21+08:00] ::1 GET thinkadmin.com:8888/store/goods_cate/index.html?spm=m-13-48-44
+[ error ] [8]未定义变量: vo[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/runtime/temp/a610494fe2d976ab4d832456b8c7ffbe.php:2]
+---------------------------------------------------------------
+[2019-04-25T15:59:29+08:00] ::1 GET thinkadmin.com:8888/store/goods_cate/index.html?spm=m-13-48-44
+[ error ] [8]未定义变量: vo[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/runtime/temp/a610494fe2d976ab4d832456b8c7ffbe.php:2]
+---------------------------------------------------------------
+[2019-04-25T15:59:53+08:00] ::1 GET thinkadmin.com:8888/store/goods_cate/index.html?spm=m-13-48-44
+[ error ] [2]htmlentities() expects parameter 1 to be string, array given[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/runtime/temp/a610494fe2d976ab4d832456b8c7ffbe.php:2]
+---------------------------------------------------------------
+[2019-04-25T17:33:16+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53
+[ error ] [2]htmlentities() expects parameter 1 to be string, array given[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/runtime/temp/0cfb583f7bb59a0a3bd0437421344fe8.php:2]
+---------------------------------------------------------------
+[2019-04-25T17:33:21+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53
+[ error ] [2]htmlentities() expects parameter 1 to be string, array given[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/runtime/temp/0cfb583f7bb59a0a3bd0437421344fe8.php:2]
+---------------------------------------------------------------
+[2019-04-25T17:33:24+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53
+[ error ] [2]htmlentities() expects parameter 1 to be string, array given[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/runtime/temp/0cfb583f7bb59a0a3bd0437421344fe8.php:2]
+---------------------------------------------------------------
+[2019-04-25T17:39:54+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53
+[ error ] [0]模板文件不存在:/Users/qwk/Desktop/thinkadmin/ThinkAdmin/application/activity/view/activity/index_search.html[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/Template.php:1243]
+---------------------------------------------------------------
+[2019-04-25T17:40:45+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53
+[ error ] [0]模板文件不存在:/Users/qwk/Desktop/thinkadmin/ThinkAdmin/application/activity/view/activity/index_search.html[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/Template.php:1243]
+---------------------------------------------------------------
+[2019-04-25T18:23:11+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53
+[ error ] [0]查询表达式错误:'name'[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/db/Builder.php:309]
+---------------------------------------------------------------
+[2019-04-25T18:29:40+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53&name=qwk
+[ error ] [8]未定义变量: where[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/application/activity/controller/Classify.php:25]
+---------------------------------------------------------------
+[2019-04-25T18:31:07+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53&name=qwk
+[ error ] [0]查询表达式错误:'name'[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/db/Builder.php:309]

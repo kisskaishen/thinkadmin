@@ -1,0 +1,19 @@
+---------------------------------------------------------------
+[2019-04-24T12:29:04+08:00] ::1 GET thinkadmin.com:8888/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007551s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.068797s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.001457s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.003739s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.003576s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003335s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.001100s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.003334s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000670s ]
+---------------------------------------------------------------
+[2019-04-24T12:29:05+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001126s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001015s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'activity/classify/index' LIMIT 1 [ RunTime:0.000796s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.005658s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wap_classify` LIMIT 1 [ RunTime:0.005240s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` LIMIT 0,20 [ RunTime:0.000861s ]

@@ -1,0 +1,58 @@
+{extend name='admin@main'}
+
+{block name="button"}
+{if auth("activity/classify/add")}
+<button data-modal='{:url("add")}' data-title="添加分类" class='layui-btn layui-btn-sm layui-btn-primary'>添加分类</button>
+{/if}
+{if auth("activity/classify/del")}
+<button data-action='{:url("del")}' data-rule="id#{key}" class='layui-btn layui-btn-sm layui-btn-primary'>删除分类</button>
+{/if}
+{/block}
+
+{block name="content"}
+<table class="layui-table" lay-skin="line">
+    <caption class="margin-bottom-10 text-left">{include file='classify/index_search'}</caption>
+    <thead>
+    <tr>
+        <th class='list-table-check-td think-checkbox'>
+            <input data-auto-none data-check-target='.list-check-box' type='checkbox'>
+        </th>
+        <th class='list-table-sort-td'>
+            <button type="button" data-reload class="layui-btn layui-btn-xs">刷 新</button>
+        </th>
+        <th class='text-left nowrap'>分类ID</th>
+        <th class="text-center">分类名称</th>
+        <th class="text-center">分类点击量</th>
+        <th class="text-center">分类背景色</th>
+        <th class="text-center">背景色图</th>
+        <th class="text-center">操作</th>
+    </tr>
+    </thead>
+    {notempty name='list'}
+
+    <tbody>
+    {foreach $list as $key=>$vo }
+    <tr>
+        <td class='list-table-check-td think-checkbox'>
+            <input class="list-check-box" value='{$vo.id}' type='checkbox'>
+        </td>
+        <td class='list-table-sort-td'>{$vo.clickNum}</td>
+        <td class='text-center nowrap'>{$vo.id}</td>
+        <td class='text-center nowrap'>{$vo.name}</td>
+        <td class='text-center nowrap'>{$vo.clickNum}</td>
+        <td class='text-center nowrap'>{$vo.color}</td>
+        <td class='text-center nowrap'>{$vo.color}</td>
+        <td class='text-center nowrap'>
+            {if auth("activity/classify/edit")}
+            <a data-title="编辑分类" class="layui-btn layui-btn-sm" data-modal='{:url("edit")}?id={$vo.id}'>编 辑</a>
+            {/if}
+        </td>
+    </tr>
+    {/foreach}
+
+    </tbody>
+    {/notempty}
+</table>
+{empty name='list'}<span class="notdata">没有记录哦</span>{else}{$pagehtml|raw|default=''}{/empty}
+
+{/block}

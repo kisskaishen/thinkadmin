@@ -1,0 +1,71 @@
+---------------------------------------------------------------
+[2019-04-20T17:25:16+08:00] ::1 GET thinkadmin.com:8888/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008034s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.109870s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.003433s ]
+---------------------------------------------------------------
+[2019-04-20T17:25:25+08:00] ::1 POST thinkadmin.com:8888/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001760s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.016978s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `is_deleted` = 0  AND `username` = 'admin' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.005497s ]
+[ sql ] [ SQL ] UPDATE `system_user`  SET `login_at` = now() , `login_ip` = '::1' , `login_num` = login_num+1  WHERE  `id` = 10000 [ RunTime:0.026503s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_log` [ RunTime:0.015161s ]
+[ sql ] [ SQL ] INSERT INTO `system_log` (`node` , `geoip` , `action` , `content` , `username`) VALUES ('admin/login/index' , '::1' , '系统管理' , '用户登录系统成功' , 'admin') [ RunTime:0.003418s ]
+---------------------------------------------------------------
+[2019-04-20T17:25:26+08:00] ::1 GET thinkadmin.com:8888/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001145s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.001640s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.006055s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.019884s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.003092s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.004865s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.000721s ]
+---------------------------------------------------------------
+[2019-04-20T17:25:26+08:00] ::1 GET thinkadmin.com:8888/admin/index/main.html?spm=m-1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000616s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.002243s ]
+---------------------------------------------------------------
+[2019-04-20T17:25:34+08:00] ::1 GET thinkadmin.com:8888/store/config/index.html?spm=m-13-47-45
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001013s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001430s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'store/config/index' LIMIT 1 [ RunTime:0.000724s ]
+---------------------------------------------------------------
+[2019-04-20T17:25:55+08:00] ::1 GET thinkadmin.com:8888/wechat/config/options.html?spm=m-16-17-18
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001174s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001271s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'wechat/config/options' LIMIT 1 [ RunTime:0.000684s ]
+---------------------------------------------------------------
+[2019-04-20T17:25:55+08:00] ::1 GET thinkadmin.com:8888/wechat/api.tools/oauth_qrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000753s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001239s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'wechat/api.tools/oauth_qrc' LIMIT 1 [ RunTime:0.000805s ]
+---------------------------------------------------------------
+[2019-04-20T17:25:55+08:00] ::1 GET thinkadmin.com:8888/wechat/api.tools/jsapiqrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001008s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001356s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'wechat/api.tools/jsapiqrc' LIMIT 1 [ RunTime:0.000613s ]
+---------------------------------------------------------------
+[2019-04-20T17:25:55+08:00] ::1 GET thinkadmin.com:8888/wechat/api.tools/jssdk_qrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003159s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001505s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'wechat/api.tools/jssdk_qrc' LIMIT 1 [ RunTime:0.000823s ]
+---------------------------------------------------------------
+[2019-04-20T17:25:55+08:00] ::1 GET thinkadmin.com:8888/wechat/api.tools/scanoneqrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001534s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.007275s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'wechat/api.tools/scanoneqrc' LIMIT 1 [ RunTime:0.000802s ]
+---------------------------------------------------------------
+[2019-04-20T17:25:55+08:00] ::1 GET thinkadmin.com:8888/service/config/index.html?spm=m-37-40-38
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003448s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001580s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'service/config/index' LIMIT 1 [ RunTime:0.000726s ]
+---------------------------------------------------------------
+[2019-04-20T17:25:55+08:00] ::1 GET thinkadmin.com:8888/wechat/api.tools/scanqrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001130s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.002339s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'wechat/api.tools/scanqrc' LIMIT 1 [ RunTime:0.000750s ]
+---------------------------------------------------------------
+[2019-04-20T17:26:01+08:00] ::1 GET thinkadmin.com:8888/admin/config/info.html?spm=m-2-4-11
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000879s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001101s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'admin/config/info' LIMIT 1 [ RunTime:0.000936s ]

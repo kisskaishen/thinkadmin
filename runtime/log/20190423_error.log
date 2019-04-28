@@ -1,0 +1,45 @@
+---------------------------------------------------------------
+[2019-04-23T16:49:40+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53
+[ error ] [0]模板文件不存在:/Users/qwk/Desktop/thinkadmin/ThinkAdmin/application/activity/view/goods/index_search.html[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/Template.php:1243]
+---------------------------------------------------------------
+[2019-04-23T16:51:22+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53
+[ error ] [8]未定义变量: list[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/runtime/temp/0cfb583f7bb59a0a3bd0437421344fe8.php:2]
+---------------------------------------------------------------
+[2019-04-23T16:51:50+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53
+[ error ] [8]未定义变量: list[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/runtime/temp/0cfb583f7bb59a0a3bd0437421344fe8.php:2]
+---------------------------------------------------------------
+[2019-04-23T16:57:12+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53
+[ error ] [0]模板文件不存在:/Users/qwk/Desktop/thinkadmin/ThinkAdmin/application/activity/view/goods/index_search.html[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/Template.php:1243]
+---------------------------------------------------------------
+[2019-04-23T16:57:19+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53
+[ error ] [8]未定义数组索引: sort[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/runtime/temp/0cfb583f7bb59a0a3bd0437421344fe8.php:2]
+---------------------------------------------------------------
+[2019-04-23T16:58:25+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53
+[ error ] [8]未定义数组索引: sort[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/runtime/temp/0cfb583f7bb59a0a3bd0437421344fe8.php:2]
+---------------------------------------------------------------
+[2019-04-23T16:58:41+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53
+[ error ] [8]未定义数组索引: sort[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/runtime/temp/0cfb583f7bb59a0a3bd0437421344fe8.php:2]
+---------------------------------------------------------------
+[2019-04-23T16:59:32+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53
+[ error ] [8]未定义数组索引: sort[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/runtime/temp/0cfb583f7bb59a0a3bd0437421344fe8.php:2]
+---------------------------------------------------------------
+[2019-04-23T16:59:58+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53
+[ error ] [8]未定义数组索引: sort[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/runtime/temp/0cfb583f7bb59a0a3bd0437421344fe8.php:2]
+---------------------------------------------------------------
+[2019-04-23T17:00:42+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53
+[ error ] [8]未定义数组索引: sort[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/runtime/temp/0cfb583f7bb59a0a3bd0437421344fe8.php:2]
+---------------------------------------------------------------
+[2019-04-23T17:00:55+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53
+[ error ] [8]未定义数组索引: sort[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/runtime/temp/0cfb583f7bb59a0a3bd0437421344fe8.php:2]
+---------------------------------------------------------------
+[2019-04-23T17:01:02+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53
+[ error ] [8]未定义数组索引: sort[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/runtime/temp/0cfb583f7bb59a0a3bd0437421344fe8.php:2]
+---------------------------------------------------------------
+[2019-04-23T17:01:46+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53
+[ error ] [8]未定义数组索引: sort[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/runtime/temp/0cfb583f7bb59a0a3bd0437421344fe8.php:2]
+---------------------------------------------------------------
+[2019-04-23T17:33:08+08:00] ::1 GET thinkadmin.com:8888/admin/login/out.html?spm=m-2-12-5
+[ error ] [8]未定义变量: _SESSION[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/application/admin/controller/Login.php:100]
+---------------------------------------------------------------
+[2019-04-23T17:33:15+08:00] ::1 GET thinkadmin.com:8888/admin/login/out.html?spm=m-2-12-5
+[ error ] [8]未定义变量: _SESSION[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/application/admin/controller/Login.php:100]

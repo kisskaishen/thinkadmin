@@ -1,0 +1,661 @@
+---------------------------------------------------------------
+[2019-04-28T10:58:09+08:00] ::1 GET thinkadmin.com:8888/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006542s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.069075s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.002192s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.002890s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.004782s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.002522s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.001049s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.003729s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000607s ]
+---------------------------------------------------------------
+[2019-04-28T10:58:10+08:00] ::1 GET thinkadmin.com:8888/activity/index/add.html?spm=m-51-55-57
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000900s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001153s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'activity/index/add' LIMIT 1 [ RunTime:0.000664s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_activity` [ RunTime:0.003704s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.004519s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` [ RunTime:0.000529s ]
+---------------------------------------------------------------
+[2019-04-28T10:58:14+08:00] ::1 GET thinkadmin.com:8888/activity/index/index.html?spm=m-51-55-56
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000636s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000839s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'activity/index/index' LIMIT 1 [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_activity` [ RunTime:0.000999s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_activity` ORDER BY `id` ASC [ RunTime:0.000391s ]
+---------------------------------------------------------------
+[2019-04-28T10:58:16+08:00] ::1 GET thinkadmin.com:8888/activity/index/add.html?spm=m-51-55-56&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000591s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001028s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_activity` [ RunTime:0.000921s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.000819s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` [ RunTime:0.000502s ]
+---------------------------------------------------------------
+[2019-04-28T10:58:20+08:00] ::1 GET thinkadmin.com:8888/activity/index/add.html?spm=m-51-55-57
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000746s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000894s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_activity` [ RunTime:0.003228s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.002376s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` [ RunTime:0.000631s ]
+---------------------------------------------------------------
+[2019-04-28T10:58:39+08:00] ::1 POST thinkadmin.com:8888/?s=admin/api.plugs/plupload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000677s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000876s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'admin/api.plugs/plupload' LIMIT 1 [ RunTime:0.000675s ]
+---------------------------------------------------------------
+[2019-04-28T10:58:41+08:00] ::1 POST thinkadmin.com:8888/?s=admin/api.plugs/plupload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000646s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001027s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'admin/api.plugs/plupload' LIMIT 1 [ RunTime:0.000837s ]
+---------------------------------------------------------------
+[2019-04-28T10:58:43+08:00] ::1 POST thinkadmin.com:8888/activity/index/add.html?spm=m-51-55-57
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000577s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_activity` [ RunTime:0.002017s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.001325s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` [ RunTime:0.000526s ]
+---------------------------------------------------------------
+[2019-04-28T15:20:48+08:00] ::1 GET thinkadmin.com:8888/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006773s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.065970s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.001831s ]
+---------------------------------------------------------------
+[2019-04-28T15:20:50+08:00] ::1 POST thinkadmin.com:8888/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000798s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.003490s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `is_deleted` = 0  AND `username` = 'admin' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.005881s ]
+[ sql ] [ SQL ] UPDATE `system_user`  SET `login_at` = now() , `login_ip` = '::1' , `login_num` = login_num+1  WHERE  `id` = 10000 [ RunTime:0.010670s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_log` [ RunTime:0.004100s ]
+[ sql ] [ SQL ] INSERT INTO `system_log` (`node` , `geoip` , `action` , `content` , `username`) VALUES ('admin/login/index' , '::1' , '系统管理' , '用户登录系统成功' , 'admin') [ RunTime:0.008164s ]
+---------------------------------------------------------------
+[2019-04-28T15:20:50+08:00] ::1 GET thinkadmin.com:8888/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001638s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.000887s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.003068s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.002491s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.002427s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.000675s ]
+---------------------------------------------------------------
+[2019-04-28T15:20:50+08:00] ::1 GET thinkadmin.com:8888/admin/index/main.html?spm=m-1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000689s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.002193s ]
+---------------------------------------------------------------
+[2019-04-28T15:20:52+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000569s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000941s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'activity/classify/index' LIMIT 1 [ RunTime:0.000693s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.004533s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` ORDER BY `clickNum` DESC,`id` ASC [ RunTime:0.000645s ]
+---------------------------------------------------------------
+[2019-04-28T15:21:17+08:00] ::1 GET thinkadmin.com:8888/activity/classify/edit.html?id=15&spm=m-51-52-53&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000908s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001378s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'activity/classify/edit' LIMIT 1 [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.002865s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.003420s ]
+---------------------------------------------------------------
+[2019-04-28T15:21:21+08:00] ::1 GET thinkadmin.com:8888/activity/classify/add.html?spm=m-51-52-54
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000545s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'activity/classify/add' LIMIT 1 [ RunTime:0.001219s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.000810s ]
+---------------------------------------------------------------
+[2019-04-28T15:22:09+08:00] ::1 POST thinkadmin.com:8888/api/classify/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001068s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001524s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'api/classify/index' LIMIT 1 [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.001177s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` `a` ORDER BY `clickNum` DESC,`id` ASC [ RunTime:0.000777s ]
+---------------------------------------------------------------
+[2019-04-28T15:24:12+08:00] ::1 POST thinkadmin.com:8888/api/classify/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001247s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.002315s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'api/classify/index' LIMIT 1 [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.001633s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` `a` ORDER BY `clickNum` DESC,`id` ASC [ RunTime:0.000502s ]
+---------------------------------------------------------------
+[2019-04-28T15:26:09+08:00] ::1 POST thinkadmin.com:8888/api/classify/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000839s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.002079s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'api/classify/index' LIMIT 1 [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.000854s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` `a` ORDER BY `clickNum` DESC,`id` ASC [ RunTime:0.000466s ]
+---------------------------------------------------------------
+[2019-04-28T15:26:36+08:00] ::1 POST thinkadmin.com:8888/api/classify/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000773s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000873s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'api/classify/index' LIMIT 1 [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.000945s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` `a` ORDER BY `clickNum` DESC,`id` ASC [ RunTime:0.001032s ]
+---------------------------------------------------------------
+[2019-04-28T15:31:06+08:00] ::1 POST thinkadmin.com:8888/api/classify/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000953s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.002073s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'api/classify/index' LIMIT 1 [ RunTime:0.000567s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.000988s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` `a` ORDER BY `clickNum` DESC,`id` ASC [ RunTime:0.000639s ]
+---------------------------------------------------------------
+[2019-04-28T15:35:16+08:00] ::1 GET thinkadmin.com:8888/activity/index/index.html?spm=m-51-55-56
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000792s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000926s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'activity/index/index' LIMIT 1 [ RunTime:0.002301s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_activity` [ RunTime:0.004215s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_activity` ORDER BY `id` ASC [ RunTime:0.000371s ]
+---------------------------------------------------------------
+[2019-04-28T15:35:16+08:00] ::1 GET thinkadmin.com:8888/activity/index/add.html?spm=m-51-55-57
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000664s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001030s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'activity/index/add' LIMIT 1 [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_activity` [ RunTime:0.001048s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.001443s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` [ RunTime:0.001066s ]
+---------------------------------------------------------------
+[2019-04-28T15:37:11+08:00] ::1 GET thinkadmin.com:8888/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000807s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.001081s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.001270s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.001046s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000881s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001007s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.000727s ]
+---------------------------------------------------------------
+[2019-04-28T15:37:11+08:00] ::1 GET thinkadmin.com:8888/activity/index/add.html?spm=m-51-55-57
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000646s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000946s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'activity/index/add' LIMIT 1 [ RunTime:0.000843s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_activity` [ RunTime:0.000983s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.000924s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` [ RunTime:0.000577s ]
+---------------------------------------------------------------
+[2019-04-28T15:41:34+08:00] ::1 GET thinkadmin.com:8888/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001105s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.002374s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000645s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.001078s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000994s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.000646s ]
+---------------------------------------------------------------
+[2019-04-28T15:41:34+08:00] ::1 GET thinkadmin.com:8888/activity/index/add.html?spm=m-51-55-57
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002990s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001390s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'activity/index/add' LIMIT 1 [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_activity` [ RunTime:0.002893s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.001592s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` [ RunTime:0.000481s ]
+---------------------------------------------------------------
+[2019-04-28T15:41:53+08:00] ::1 POST thinkadmin.com:8888/?s=admin/api.plugs/plupload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000663s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001683s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'admin/api.plugs/plupload' LIMIT 1 [ RunTime:0.000611s ]
+---------------------------------------------------------------
+[2019-04-28T15:41:57+08:00] ::1 POST thinkadmin.com:8888/?s=admin/api.plugs/plupload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000666s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000954s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'admin/api.plugs/plupload' LIMIT 1 [ RunTime:0.000475s ]
+---------------------------------------------------------------
+[2019-04-28T15:42:02+08:00] ::1 POST thinkadmin.com:8888/activity/index/add.html?spm=m-51-55-57
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000973s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_activity` [ RunTime:0.000995s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.000728s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` [ RunTime:0.000448s ]
+---------------------------------------------------------------
+[2019-04-28T15:42:58+08:00] ::1 GET thinkadmin.com:8888/activity/classify/add.html?spm=m-51-52-54
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000632s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000886s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'activity/classify/add' LIMIT 1 [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.000805s ]
+---------------------------------------------------------------
+[2019-04-28T15:43:08+08:00] ::1 POST thinkadmin.com:8888/activity/classify/add.html?spm=m-51-52-54
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000643s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000929s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.000956s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wap_classify` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.008798s ]
+[ sql ] [ SQL ] INSERT INTO `wap_classify` (`name` , `color`) VALUES ('test' , '123') [ RunTime:0.000818s ]
+---------------------------------------------------------------
+[2019-04-28T15:43:10+08:00] ::1 GET thinkadmin.com:8888/activity/classify/add.html?spm=m-51-52-54
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000603s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000776s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.000889s ]
+---------------------------------------------------------------
+[2019-04-28T15:44:31+08:00] ::1 GET thinkadmin.com:8888/activity/index/add.html?spm=m-51-55-57
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000650s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000811s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'activity/index/add' LIMIT 1 [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_activity` [ RunTime:0.000922s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.000839s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` [ RunTime:0.000562s ]
+---------------------------------------------------------------
+[2019-04-28T15:44:32+08:00] ::1 GET thinkadmin.com:8888/activity/index/index.html?spm=m-51-55-56
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000586s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000806s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'activity/index/index' LIMIT 1 [ RunTime:0.002116s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_activity` [ RunTime:0.000929s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_activity` ORDER BY `id` ASC [ RunTime:0.000558s ]
+---------------------------------------------------------------
+[2019-04-28T15:44:33+08:00] ::1 GET thinkadmin.com:8888/activity/index/add.html?spm=m-51-55-57
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000590s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000864s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_activity` [ RunTime:0.000786s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` [ RunTime:0.000605s ]
+---------------------------------------------------------------
+[2019-04-28T15:44:34+08:00] ::1 GET thinkadmin.com:8888/activity/index/index.html?spm=m-51-55-56
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000780s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003675s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_activity` [ RunTime:0.000840s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_activity` ORDER BY `id` ASC [ RunTime:0.000394s ]
+---------------------------------------------------------------
+[2019-04-28T15:44:34+08:00] ::1 GET thinkadmin.com:8888/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000773s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.002194s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.002124s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.002341s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.001648s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000727s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.000578s ]
+---------------------------------------------------------------
+[2019-04-28T15:44:34+08:00] ::1 GET thinkadmin.com:8888/activity/index/index.html?spm=m-51-55-56
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001922s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_activity` [ RunTime:0.000697s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_activity` ORDER BY `id` ASC [ RunTime:0.000353s ]
+---------------------------------------------------------------
+[2019-04-28T15:44:35+08:00] ::1 GET thinkadmin.com:8888/activity/index/add.html?spm=m-51-55-57
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000718s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001407s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_activity` [ RunTime:0.000886s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.000826s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` [ RunTime:0.000514s ]
+---------------------------------------------------------------
+[2019-04-28T15:44:36+08:00] ::1 GET thinkadmin.com:8888/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000661s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.000858s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.000874s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000822s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000975s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.000659s ]
+---------------------------------------------------------------
+[2019-04-28T15:44:37+08:00] ::1 GET thinkadmin.com:8888/activity/index/add.html?spm=m-51-55-57
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000620s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000824s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_activity` [ RunTime:0.000935s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.000922s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` [ RunTime:0.000475s ]
+---------------------------------------------------------------
+[2019-04-28T15:45:24+08:00] ::1 GET thinkadmin.com:8888/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000635s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.001030s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000728s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.000858s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.001080s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000955s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.003472s ]
+---------------------------------------------------------------
+[2019-04-28T15:45:25+08:00] ::1 GET thinkadmin.com:8888/activity/index/add.html?spm=m-51-55-57
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000595s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000849s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_activity` [ RunTime:0.001863s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.001127s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` [ RunTime:0.000556s ]
+---------------------------------------------------------------
+[2019-04-28T15:46:47+08:00] ::1 GET thinkadmin.com:8888/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000581s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.000944s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000912s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.000954s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000995s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000982s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.000676s ]
+---------------------------------------------------------------
+[2019-04-28T15:46:47+08:00] ::1 GET thinkadmin.com:8888/activity/index/add.html?spm=m-51-55-57
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000591s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001829s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'activity/index/add' LIMIT 1 [ RunTime:0.000535s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_activity` [ RunTime:0.000870s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.000819s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` [ RunTime:0.000398s ]
+---------------------------------------------------------------
+[2019-04-28T15:47:35+08:00] ::1 GET thinkadmin.com:8888/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000581s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.000858s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.000793s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000856s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000862s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.000777s ]
+---------------------------------------------------------------
+[2019-04-28T15:47:35+08:00] ::1 GET thinkadmin.com:8888/activity/index/add.html?spm=m-51-55-57
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000622s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000855s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_activity` [ RunTime:0.001227s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.000676s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` [ RunTime:0.000443s ]
+---------------------------------------------------------------
+[2019-04-28T15:48:10+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000552s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000817s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'activity/classify/index' LIMIT 1 [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.000805s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` ORDER BY `clickNum` DESC,`id` ASC [ RunTime:0.000460s ]
+---------------------------------------------------------------
+[2019-04-28T15:48:13+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53&name=%E5%85%AC%E5%8F%B8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000538s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000690s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.000663s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` WHERE  `name` LIKE '%公司%' ORDER BY `clickNum` DESC,`id` ASC [ RunTime:0.000810s ]
+---------------------------------------------------------------
+[2019-04-28T15:48:17+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53&name=%E5%9B%A2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000797s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001104s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.000791s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` WHERE  `name` LIKE '%团%' ORDER BY `clickNum` DESC,`id` ASC [ RunTime:0.000592s ]
+---------------------------------------------------------------
+[2019-04-28T15:48:21+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53&name=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000558s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000777s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.000689s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` ORDER BY `clickNum` DESC,`id` ASC [ RunTime:0.000491s ]
+---------------------------------------------------------------
+[2019-04-28T15:49:17+08:00] ::1 GET thinkadmin.com:8888/activity/index/add.html?spm=m-51-55-57
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000562s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001015s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'activity/index/add' LIMIT 1 [ RunTime:0.002624s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_activity` [ RunTime:0.002079s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.002340s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` [ RunTime:0.000896s ]
+---------------------------------------------------------------
+[2019-04-28T15:49:23+08:00] ::1 POST thinkadmin.com:8888/?s=admin/api.plugs/plupload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000572s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000844s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'admin/api.plugs/plupload' LIMIT 1 [ RunTime:0.000537s ]
+---------------------------------------------------------------
+[2019-04-28T15:49:25+08:00] ::1 POST thinkadmin.com:8888/?s=admin/api.plugs/plupload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000627s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000961s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'admin/api.plugs/plupload' LIMIT 1 [ RunTime:0.000881s ]
+---------------------------------------------------------------
+[2019-04-28T15:49:27+08:00] ::1 POST thinkadmin.com:8888/activity/index/add.html?spm=m-51-55-57
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000569s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000810s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_activity` [ RunTime:0.002778s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.002642s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` [ RunTime:0.000597s ]
+---------------------------------------------------------------
+[2019-04-28T15:49:37+08:00] ::1 GET thinkadmin.com:8888/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000668s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.000870s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000759s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.000830s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000989s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000881s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.000629s ]
+---------------------------------------------------------------
+[2019-04-28T15:49:38+08:00] ::1 GET thinkadmin.com:8888/activity/index/add.html?spm=m-51-55-57
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000626s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000804s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_activity` [ RunTime:0.000766s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.000713s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` [ RunTime:0.000454s ]
+---------------------------------------------------------------
+[2019-04-28T15:49:45+08:00] ::1 POST thinkadmin.com:8888/?s=admin/api.plugs/plupload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000687s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001803s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'admin/api.plugs/plupload' LIMIT 1 [ RunTime:0.000986s ]
+---------------------------------------------------------------
+[2019-04-28T15:49:47+08:00] ::1 POST thinkadmin.com:8888/?s=admin/api.plugs/plupload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001617s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001313s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'admin/api.plugs/plupload' LIMIT 1 [ RunTime:0.000562s ]
+---------------------------------------------------------------
+[2019-04-28T15:49:48+08:00] ::1 POST thinkadmin.com:8888/activity/index/add.html?spm=m-51-55-57
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000627s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_activity` [ RunTime:0.000998s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wap_classify` [ RunTime:0.004498s ]
+[ sql ] [ SQL ] SELECT * FROM `wap_classify` [ RunTime:0.001282s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:03+08:00] ::1 GET thinkadmin.com:8888/admin/config/info.html?spm=m-2-4-11
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000592s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001509s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'admin/config/info' LIMIT 1 [ RunTime:0.000558s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:09+08:00] ::1 GET thinkadmin.com:8888/wechat/config/options.html?spm=m-16-17-18
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000614s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000901s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'wechat/config/options' LIMIT 1 [ RunTime:0.000613s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:09+08:00] ::1 GET thinkadmin.com:8888/wechat/api.tools/jssdk_qrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001700s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001849s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'wechat/api.tools/jssdk_qrc' LIMIT 1 [ RunTime:0.000739s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:09+08:00] ::1 GET thinkadmin.com:8888/wechat/api.tools/jsapiqrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000951s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001957s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'wechat/api.tools/jsapiqrc' LIMIT 1 [ RunTime:0.002012s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:09+08:00] ::1 GET thinkadmin.com:8888/wechat/api.tools/oauth_qrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000886s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.002116s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'wechat/api.tools/oauth_qrc' LIMIT 1 [ RunTime:0.006900s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:09+08:00] ::1 GET thinkadmin.com:8888/wechat/api.tools/scanoneqrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000868s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001183s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'wechat/api.tools/scanoneqrc' LIMIT 1 [ RunTime:0.002186s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:10+08:00] ::1 GET thinkadmin.com:8888/wechat/config/payment.html?spm=m-16-17-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000647s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003831s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'wechat/config/payment' LIMIT 1 [ RunTime:0.000642s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:10+08:00] ::1 GET thinkadmin.com:8888/wechat/api.tools/scanqrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003128s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003210s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'wechat/api.tools/scanqrc' LIMIT 1 [ RunTime:0.000561s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:11+08:00] ::1 GET thinkadmin.com:8888/wechat/news/index.html?spm=m-16-20-21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000602s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000788s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'wechat/news/index' LIMIT 1 [ RunTime:0.001036s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_news` [ RunTime:0.009563s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_news` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.002300s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_news` WHERE  `is_deleted` = 0 ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000664s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:24+08:00] ::1 GET thinkadmin.com:8888/wechat/fans/index.html?spm=m-16-20-22
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001320s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.002683s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'wechat/fans/index' LIMIT 1 [ RunTime:0.000817s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans` [ RunTime:0.007542s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_fans` LIMIT 1 [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_fans` ORDER BY `subscribe_time` DESC LIMIT 0,20 [ RunTime:0.000706s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans_tags` [ RunTime:0.005352s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `wechat_fans_tags` [ RunTime:0.000409s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:26+08:00] ::1 GET thinkadmin.com:8888/wechat/keys/index.html?spm=m-16-20-23
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001918s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001948s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'wechat/keys/index' LIMIT 1 [ RunTime:0.000610s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_keys` [ RunTime:0.005697s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_keys` WHERE  `keys` NOT IN ('subscribe','default') LIMIT 1 [ RunTime:0.003643s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_keys` WHERE  `keys` NOT IN ('subscribe','default') ORDER BY `sort` ASC,`id` DESC LIMIT 0,20 [ RunTime:0.001024s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:27+08:00] ::1 GET thinkadmin.com:8888/wechat/keys/subscribe.html?spm=m-16-20-24
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000591s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001100s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'wechat/keys/subscribe' LIMIT 1 [ RunTime:0.000700s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_keys` [ RunTime:0.000958s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_keys` WHERE  `keys` = 'subscribe' LIMIT 1 [ RunTime:0.000819s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:28+08:00] ::1 GET thinkadmin.com:8888/wechat/api.review/text.html?type=text&content=%E6%AC%A2%E8%BF%8E%E5%85%89%E4%B8%B4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000600s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000887s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'wechat/api.review/text' LIMIT 1 [ RunTime:0.000550s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:29+08:00] ::1 GET thinkadmin.com:8888/wechat/keys/index.html?spm=m-16-20-23
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000657s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000854s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_keys` [ RunTime:0.001267s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_keys` WHERE  `keys` NOT IN ('subscribe','default') LIMIT 1 [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_keys` WHERE  `keys` NOT IN ('subscribe','default') ORDER BY `sort` ASC,`id` DESC LIMIT 0,20 [ RunTime:0.000936s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:32+08:00] ::1 GET thinkadmin.com:8888/wechat/keys/subscribe.html?spm=m-16-20-24
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000675s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_keys` [ RunTime:0.001114s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_keys` WHERE  `keys` = 'subscribe' LIMIT 1 [ RunTime:0.000709s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:32+08:00] ::1 GET thinkadmin.com:8888/wechat/api.review/text.html?type=text&content=%E6%AC%A2%E8%BF%8E%E5%85%89%E4%B8%B4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000666s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000907s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'wechat/api.review/text' LIMIT 1 [ RunTime:0.003573s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:34+08:00] ::1 GET thinkadmin.com:8888/wechat/keys/defaults.html?spm=m-16-20-25
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002406s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000964s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'wechat/keys/defaults' LIMIT 1 [ RunTime:0.001259s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_keys` [ RunTime:0.000968s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_keys` WHERE  `keys` = 'default' LIMIT 1 [ RunTime:0.000788s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:34+08:00] ::1 GET thinkadmin.com:8888/wechat/api.review/text.html?type=text&content=%E8%AF%B4%E7%82%B9%E4%BB%80%E4%B9%88%E5%90%A7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001866s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001624s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'wechat/api.review/text' LIMIT 1 [ RunTime:0.000491s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:35+08:00] ::1 GET thinkadmin.com:8888/wechat/menu/index.html?spm=m-16-20-26
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000643s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001047s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'wechat/menu/index' LIMIT 1 [ RunTime:0.002976s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:35+08:00] ::1 GET thinkadmin.com:8888/wechat/menu/index.html?spm=m-16-20-26&output=json
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003055s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001059s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_keys` [ RunTime:0.000982s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_keys` WHERE  `keys` NOT IN ('subscribe','default')  AND `status` = 1 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000771s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_data` [ RunTime:0.007424s ]
+[ sql ] [ SQL ] SELECT `value` FROM `system_data` WHERE  `name` = 'menudata' LIMIT 1 [ RunTime:0.001605s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:36+08:00] ::1 GET thinkadmin.com:8888/wechat/fans/index.html?spm=m-16-20-22
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000922s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000865s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans` [ RunTime:0.001072s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_fans` LIMIT 1 [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_fans` ORDER BY `subscribe_time` DESC LIMIT 0,20 [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans_tags` [ RunTime:0.000815s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `wechat_fans_tags` [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:41+08:00] ::1 GET thinkadmin.com:8888/wechat/fans/sync.html?spm=m-16-20-22
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001338s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001877s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'wechat/fans/sync' LIMIT 1 [ RunTime:0.001130s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_jobs_log` [ RunTime:0.005018s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_jobs_log` WHERE  `title` = '同步粉丝列表'  AND `status` IN (1,2) LIMIT 1 [ RunTime:0.000792s ]
+[ sql ] [ SQL ] INSERT INTO `system_jobs_log` (`title` , `later` , `uri` , `double` , `data` , `desc` , `status_at`) VALUES ('同步粉丝列表' , 0 , 'app\\wechat\\queue\\Jobs' , 0 , '[]' , '' , '2019-04-28 15:50:41') [ RunTime:0.001640s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_jobs` [ RunTime:0.006928s ]
+[ sql ] [ SQL ] INSERT INTO `system_jobs` (`queue` , `payload` , `attempts` , `reserved` , `reserved_at` , `available_at` , `created_at`) VALUES ('default' , '{\"job\":\"app\\\\wechat\\\\queue\\\\Jobs\",\"data\":{\"_job_id_\":\"1\",\"_job_title_\":\"\\u540c\\u6b65\\u7c89\\u4e1d\\u5217\\u8868\"}}' , 0 , 0 , NULL , 1556437841 , 1556437841) [ RunTime:0.001267s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:43+08:00] ::1 GET thinkadmin.com:8888/wechat/fans/index.html?spm=m-16-20-22
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000889s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001095s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans` [ RunTime:0.001864s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_fans` LIMIT 1 [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_fans` ORDER BY `subscribe_time` DESC LIMIT 0,20 [ RunTime:0.000539s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans_tags` [ RunTime:0.000831s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `wechat_fans_tags` [ RunTime:0.000334s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:44+08:00] ::1 GET thinkadmin.com:8888/store/config/index.html?spm=m-13-47-45
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000606s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000771s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'store/config/index' LIMIT 1 [ RunTime:0.000657s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:45+08:00] ::1 GET thinkadmin.com:8888/store/message/index.html?spm=m-13-47-46
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000605s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.001274s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'store/message/index' LIMIT 1 [ RunTime:0.001730s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_member_sms_history` [ RunTime:0.005461s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_member_sms_history` LIMIT 1 [ RunTime:0.000835s ]
+[ sql ] [ SQL ] SELECT * FROM `store_member_sms_history` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000636s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:46+08:00] ::1 GET thinkadmin.com:8888/store/goods_cate/index.html?spm=m-13-48-44
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000633s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000840s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'store/goods_cate/index' LIMIT 1 [ RunTime:0.001985s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.005771s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_goods_cate` LIMIT 1 [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` ORDER BY `sort` ASC,`id` DESC LIMIT 0,20 [ RunTime:0.000592s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:47+08:00] ::1 GET thinkadmin.com:8888/store/goods/index.html?spm=m-13-48-14
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000594s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000843s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'store/goods/index' LIMIT 1 [ RunTime:0.000759s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.007239s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_goods` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.002655s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods` WHERE  `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC LIMIT 0,20 [ RunTime:0.001058s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.000804s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000939s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_list` [ RunTime:0.007618s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_list` WHERE  `status` = 1  AND `goods_id` IN (6562760220,6546942377) [ RunTime:0.000612s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:47+08:00] ::1 GET thinkadmin.com:8888/store/order/index.html?spm=m-13-48-43
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000626s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000954s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'store/order/index' LIMIT 1 [ RunTime:0.002211s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_order` [ RunTime:0.008820s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_order` LIMIT 1 [ RunTime:0.001127s ]
+[ sql ] [ SQL ] SELECT * FROM `store_order` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.002263s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_order_list` [ RunTime:0.004926s ]
+[ sql ] [ SQL ] SELECT * FROM `store_order_list` WHERE  `order_no` IN ('') [ RunTime:0.001874s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_member` [ RunTime:0.007740s ]
+[ sql ] [ SQL ] SELECT * FROM `store_member` WHERE  `id` IN ('') [ RunTime:0.000556s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:48+08:00] ::1 GET thinkadmin.com:8888/store/member/index.html?spm=m-13-48-42
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000677s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000836s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'store/member/index' LIMIT 1 [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_member` [ RunTime:0.000847s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_member` LIMIT 1 [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SELECT * FROM `store_member` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000414s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:50+08:00] ::1 GET thinkadmin.com:8888/store/express/index.html?spm=m-13-47-50
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000821s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000846s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'store/express/index' LIMIT 1 [ RunTime:0.001243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_express` [ RunTime:0.004407s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_express` LIMIT 1 [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SELECT * FROM `store_express` ORDER BY `status` DESC,`sort` ASC,`id` DESC LIMIT 0,20 [ RunTime:0.001916s ]
+---------------------------------------------------------------
+[2019-04-28T15:50:52+08:00] ::1 GET thinkadmin.com:8888/store/express/add.html?spm=m-13-47-50&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000583s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000794s ]
+[ sql ] [ SQL ] SELECT `is_auth`,`is_login` FROM `system_node` WHERE  `node` = 'store/express/add' LIMIT 1 [ RunTime:0.000979s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_express` [ RunTime:0.000973s ]
+---------------------------------------------------------------
+[2019-04-28T15:51:01+08:00] ::1 GET thinkadmin.com:8888/store/message/index.html?spm=m-13-47-46
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000619s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000852s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_member_sms_history` [ RunTime:0.000799s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_member_sms_history` LIMIT 1 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `store_member_sms_history` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000394s ]
+---------------------------------------------------------------
+[2019-04-28T15:51:04+08:00] ::1 GET thinkadmin.com:8888/store/message/index.html?spm=m-13-47-46&phone=&content=&result=&create_at=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000638s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000798s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_member_sms_history` [ RunTime:0.000921s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_member_sms_history` LIMIT 1 [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SELECT * FROM `store_member_sms_history` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.001405s ]
+---------------------------------------------------------------
+[2019-04-28T15:51:05+08:00] ::1 GET thinkadmin.com:8888/store/config/index.html?spm=m-13-47-45
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000602s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000764s ]
+---------------------------------------------------------------
+[2019-04-28T15:51:08+08:00] ::1 GET thinkadmin.com:8888/store/express/index.html?spm=m-13-47-50
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000566s ] mysql:host=127.0.0.1;port=8889;dbname=admin_v4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.000909s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_express` [ RunTime:0.000874s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_express` LIMIT 1 [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT * FROM `store_express` ORDER BY `status` DESC,`sort` ASC,`id` DESC LIMIT 0,20 [ RunTime:0.000527s ]

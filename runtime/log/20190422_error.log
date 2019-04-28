@@ -1,0 +1,99 @@
+---------------------------------------------------------------
+[2019-04-22T11:05:33+08:00] ::1 GET thinkadmin.com:8888/admin.html
+[ error ] [0]Method app\admin\controller\Index::actiivty() does not exist[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/route/dispatch/Module.php:109]
+---------------------------------------------------------------
+[2019-04-22T11:05:34+08:00] ::1 GET thinkadmin.com:8888/activity
+[ error ] [0]Method app\activity\controller\Index::actiivty() does not exist[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/route/dispatch/Module.php:109]
+---------------------------------------------------------------
+[2019-04-22T11:05:48+08:00] ::1 GET thinkadmin.com:8888/activity/index/index.html
+[ error ] [0]模板文件不存在:/Users/qwk/Desktop/thinkadmin/ThinkAdmin/application/activity/view/index/index.html[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/view/driver/Think.php:86]
+---------------------------------------------------------------
+[2019-04-22T11:21:13+08:00] ::1 GET thinkadmin.com:8888/
+[ error ] [0]Method app\activity\controller\Activity::activity() does not exist[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/route/dispatch/Module.php:109]
+---------------------------------------------------------------
+[2019-04-22T11:21:14+08:00] ::1 GET thinkadmin.com:8888/
+[ error ] [0]Method app\activity\controller\Activity::activity() does not exist[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/route/dispatch/Module.php:109]
+---------------------------------------------------------------
+[2019-04-22T11:22:11+08:00] ::1 GET thinkadmin.com:8888/
+[ error ] [0]Method app\activity\controller\Activity::activity() does not exist[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/route/dispatch/Module.php:109]
+---------------------------------------------------------------
+[2019-04-22T11:38:03+08:00] ::1 GET thinkadmin.com:8888/store/express/index.html?spm=m-13-47-50
+[ error ] [0]致命错误: Call to a member function equal() on string[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/application/store/controller/Express.php:44]
+---------------------------------------------------------------
+[2019-04-22T11:38:14+08:00] ::1 GET thinkadmin.com:8888/store/express/index.html?spm=m-13-47-50
+[ error ] [0]致命错误: Call to a member function equal() on string[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/application/store/controller/Express.php:44]
+---------------------------------------------------------------
+[2019-04-22T11:46:14+08:00] ::1 GET thinkadmin.com:8888/activity/classify/add.html?open_type=modal
+[ error ] [0]Method app\activity\controller\Classify::add() does not exist[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/route/dispatch/Module.php:109]
+---------------------------------------------------------------
+[2019-04-22T11:46:21+08:00] ::1 GET thinkadmin.com:8888/activity/classify/add.html?open_type=modal
+[ error ] [0]Method app\activity\controller\Classify::add() does not exist[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/route/dispatch/Module.php:109]
+---------------------------------------------------------------
+[2019-04-22T11:49:07+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'admin_v4.wap_classify' doesn't exist[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/db/Connection.php:687]
+---------------------------------------------------------------
+[2019-04-22T11:50:11+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'admin_v4.wap_classify' doesn't exist[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/db/Connection.php:687]
+---------------------------------------------------------------
+[2019-04-22T11:50:50+08:00] ::1 GET thinkadmin.com:8888/admin.html
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'travel.system_user' doesn't exist[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/db/Connection.php:687]
+---------------------------------------------------------------
+[2019-04-22T17:16:49+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html
+[ error ] [0]类型错误: Too few arguments to function think\db\Query::page(), 0 passed in /Users/qwk/Desktop/thinkadmin/ThinkAdmin/application/activity/controller/Classify.php on line 22 and at least 1 expected[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/db/Query.php:1722]
+---------------------------------------------------------------
+[2019-04-22T17:16:55+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index
+[ error ] [0]类型错误: Too few arguments to function think\db\Query::page(), 0 passed in /Users/qwk/Desktop/thinkadmin/ThinkAdmin/application/activity/controller/Classify.php on line 22 and at least 1 expected[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/db/Query.php:1722]
+---------------------------------------------------------------
+[2019-04-22T17:17:40+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index
+[ error ] [0]method not exist:think\db\Query->like[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/db/Query.php:180]
+---------------------------------------------------------------
+[2019-04-22T17:18:00+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index
+[ error ] [0]method not exist:think\db\Query->like[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/db/Query.php:180]
+---------------------------------------------------------------
+[2019-04-22T17:18:20+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index
+[ error ] [0]method not exist:think\db\Query->like[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/db/Query.php:180]
+---------------------------------------------------------------
+[2019-04-22T17:20:11+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index
+[ error ] [0]method not exist:think\db\Query->like[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/db/Query.php:180]
+---------------------------------------------------------------
+[2019-04-22T17:20:18+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index
+[ error ] [0]method not exist:think\db\Query->like[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/db/Query.php:180]
+---------------------------------------------------------------
+[2019-04-22T17:57:23+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html
+[ error ] [0]Method app\activity\controller\Classify::index() does not exist[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/route/dispatch/Module.php:109]
+---------------------------------------------------------------
+[2019-04-22T17:57:29+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index1
+[ error ] [0]模板文件不存在:/Users/qwk/Desktop/thinkadmin/ThinkAdmin/application/activity/view/classify/index1.html[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/view/driver/Think.php:86]
+---------------------------------------------------------------
+[2019-04-22T17:57:33+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index1%E3%80%82html
+[ error ] [0]Method app\activity\controller\Classify::index1。html() does not exist[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/route/dispatch/Module.php:109]
+---------------------------------------------------------------
+[2019-04-22T17:57:37+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index1.html
+[ error ] [0]模板文件不存在:/Users/qwk/Desktop/thinkadmin/ThinkAdmin/application/activity/view/classify/index1.html[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/view/driver/Think.php:86]
+---------------------------------------------------------------
+[2019-04-22T17:58:22+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index1.html
+[ error ] [0]Method app\activity\controller\Classify::index1() does not exist[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/thinkphp/library/think/route/dispatch/Module.php:109]
+---------------------------------------------------------------
+[2019-04-22T18:32:57+08:00] ::1 GET thinkadmin.com:8888/admin.html
+[ error ] [0]语法解析错误: syntax error, unexpected ']', expecting ',' or ')'[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/application/store/controller/api/Goods.php:37]
+---------------------------------------------------------------
+[2019-04-22T18:39:21+08:00] ::1 GET thinkadmin.com:8888/store/goods/index.html?spm=m-13-48-14
+[ error ] [8]未定义变量: clist[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/runtime/temp/fdc151c667e04697f628e3d66c6ac8a4.php:2]
+---------------------------------------------------------------
+[2019-04-22T18:40:18+08:00] ::1 GET thinkadmin.com:8888/store/goods/index.html?spm=m-13-48-14
+[ error ] [8]未定义数组索引: list[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/runtime/temp/fdc151c667e04697f628e3d66c6ac8a4.php:8]
+---------------------------------------------------------------
+[2019-04-22T22:48:41+08:00] ::1 GET thinkadmin.com:8888/store/goods/index.html?spm=m-13-48-14
+[ error ] [2]json_decode() expects parameter 1 to be string, array given[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/application/store/controller/Goods.php:58]
+---------------------------------------------------------------
+[2019-04-22T23:28:44+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53
+[ error ] [2]array_push() expects at least 2 parameters, 1 given[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/application/activity/controller/Classify.php:28]
+---------------------------------------------------------------
+[2019-04-22T23:28:50+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53
+[ error ] [2]array_push() expects at least 2 parameters, 1 given[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/application/activity/controller/Classify.php:28]
+---------------------------------------------------------------
+[2019-04-22T23:37:23+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53
+[ error ] [2]array_push() expects at least 2 parameters, 1 given[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/application/activity/controller/Classify.php:28]
+---------------------------------------------------------------
+[2019-04-22T23:37:33+08:00] ::1 GET thinkadmin.com:8888/activity/classify/index.html?spm=m-51-52-53
+[ error ] [2]array_push() expects at least 2 parameters, 1 given[/Users/qwk/Desktop/thinkadmin/ThinkAdmin/application/activity/controller/Classify.php:28]
